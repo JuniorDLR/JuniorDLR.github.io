@@ -271,16 +271,16 @@
   top: 50%;
   transform: translateY(-50%);
   width: auto;
-  max-width: calc(50% - 20px);
+  max-width: calc(50% - 20px); /* Limitar el ancho al 50% del contenedor menos el espacio necesario */
   height: auto;
   max-height: 250px;
   z-index: 0;
 }
 
 #leftImage {
-  left: calc(50% - 320px - 10px); /* Ajuste de posición izquierda */
+  left: calc(50% - 320px - 20px); /* Ajustar la posición izquierda */
 }
 
 #rightImage {
-  right: calc(50% - 320px - 10px); /* Ajuste de posición derecha */
+  right: calc(50% - 320px - 20px); /* Ajustar la posición derecha */
 }
