@@ -260,25 +260,28 @@
 
   #message {
     font-size: 30px;
-    color: #ff5757; /* Color rojo, puedes ajustarlo según tu preferencia */
-    margin-top: 50px; /* Espacio superior para separarlo de los botones */
+    color: #ff5757;
+    margin: 50px auto; /* Centrar vertical y horizontalmente */
+    max-width: 80%; /* Limitar el ancho del contenedor */
+    text-align: center; /* Alinear el texto al centro */
 }
+
 .side-image {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    display: none;
-    width: 200px; /* Ancho deseado para las imágenes */
-    height: 250px; /* Altura ajustada automáticamente */
-    z-index: 0; /* Coloca las imágenes detrás del sobre */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: none;
+  width: 150px; /* Reducir el ancho de las imágenes */
+  height: 200px; /* Ajustar la altura automáticamente */
+  z-index: 0; /* Colocar las imágenes detrás del sobre */
 }
 
 #leftImage {
-    left: 500px; /* Posición a 5px a la izquierda del sobre */
-    transform: translateY(-50%) rotate(-15deg); /* Rotación hacia la izquierda */
+  left: calc(50% - 320px); /* Ajustar la posición izquierda */
+  transform: translateY(-50%) rotate(-15deg); /* Mantener la rotación */
 }
 
 #rightImage {
-    right: 500px; /* Posición a 5px a la derecha del sobre */
-    transform: translateY(-50%) rotate(15deg); /* Rotación hacia la derecha */
+  right: calc(50% - 320px); /* Ajustar la posición derecha */
+  transform: translateY(-50%) rotate(15deg); /* Mantener la rotación */
 }
