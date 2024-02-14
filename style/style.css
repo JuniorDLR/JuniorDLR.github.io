@@ -274,11 +274,11 @@
 }
 
 #leftImage {
-    left: 350px; /* Posición a 5px a la izquierda del sobre */
+    left: 500px; /* Posición a 5px a la izquierda del sobre */
     transform: translateY(-50%) rotate(-15deg); /* Rotación hacia la izquierda */
 }
 
 #rightImage {
-    right: 350px; /* Posición a 5px a la derecha del sobre */
+    right: 500px; /* Posición a 5px a la derecha del sobre */
     transform: translateY(-50%) rotate(15deg); /* Rotación hacia la derecha */
 }
