@@ -282,6 +282,6 @@
 }
 
 #rightImage {
-  right: calc(50% - 350px); /* Ajustar la posición derecha */
+  right: calc(50% - 320px); /* Ajustar la posición derecha */
 
 }
