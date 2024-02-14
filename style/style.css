@@ -268,20 +268,20 @@
 
 .side-image {
   position: absolute;
-  top: 50%;
+  top: 45%;
   transform: translateY(-50%);
   display: none;
-  width: 150px; /* Reducir el ancho de las imágenes */
-  height: 200px; /* Ajustar la altura automáticamente */
+  width: auto; /* Reducir el ancho de las imágenes */
+  height: 250px; /* Ajustar la altura automáticamente */
   z-index: 0; /* Colocar las imágenes detrás del sobre */
 }
 
 #leftImage {
   left: calc(50% - 320px); /* Ajustar la posición izquierda */
-  transform: translateY(-50%) rotate(-15deg); /* Mantener la rotación */
+
 }
 
 #rightImage {
-  right: calc(50% - 320px); /* Ajustar la posición derecha */
-  transform: translateY(-50%) rotate(15deg); /* Mantener la rotación */
+  right: calc(50% - 350px); /* Ajustar la posición derecha */
+
 }
